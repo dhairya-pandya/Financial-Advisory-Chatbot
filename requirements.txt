@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+twilio
+sentence-transformers
+faiss-cpu
+pydantic
+python-multipart
+scikit-learn
+httpx
+trafilatura
+bs4
+PyPDF2
+SpeechRecognition==3.10.0
+PyAudio==0.2.14           
+ffmpeg-python
