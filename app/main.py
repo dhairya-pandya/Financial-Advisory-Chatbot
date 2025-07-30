@@ -50,7 +50,7 @@ async def whatsapp_webhook(
         # voice note handling
         if (not query_text) and NumMedia != "0" and MediaContentType0.startswith("audio"):
             print("🎙 Voice note detected → downloading…")
-            twilio_auth = ("AC5b64e3a3f1624844992afee7910eeb16", 'e989c7c426bc0a6b3d5990ea246ea4aa')
+            twilio_auth = ("TWILIO_AUTH", 'TWILIO_SSID')
             query_text = await asyncio.to_thread(
                 download_and_transcribe, MediaUrl0, twilio_auth
             )
